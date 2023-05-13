@@ -50,10 +50,11 @@ ZJAddressPickerView *addressView = [ZJAddressPickerView new];
 // 2.显示弹框
 [addressView show];
 ```
-## User-defined properties【自定义想要的弹框效果】
+## User-defined properties【自定义想要的效果】
 ```objc
 // 1.Init config,can not be set【初始化配置，可不设置使用默认值，见注解】
 ZJAddressConfig *addressConfig = [ZJAddressConfig new];
+
 // 1.1 可选级别（默认4级，可达5级，本地数据源只支持4级联动数据）
 addressConfig.maxLevels = 4;
 // 1.2 标题
