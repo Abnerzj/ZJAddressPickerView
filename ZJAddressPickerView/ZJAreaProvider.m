@@ -71,7 +71,8 @@
 
 - (NSArray<ZJAreaData *> *)sourceList {
     if (_sourceList.count == 0) {
-        NSString *path = [[NSBundle mainBundle] pathForResource:@"adress" ofType:@"txt"];
+        NSBundle *addressBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:self.class] pathForResource:@"ZJAddressPickerView" ofType:@"bundle"]];
+        NSString *path = [addressBundle pathForResource:@"address" ofType:@"txt"];
         NSError *error = nil;
         NSString *encodingPath = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
         if (!error && encodingPath.length) {

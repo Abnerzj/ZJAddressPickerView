@@ -13,9 +13,9 @@
 		60EC34AB2A0E722200257408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60EC34AA2A0E722200257408 /* Assets.xcassets */; };
 		60EC34AE2A0E722200257408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EC34AC2A0E722200257408 /* LaunchScreen.storyboard */; };
 		60EC34B12A0E722200257408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EC34B02A0E722200257408 /* main.m */; };
-		60EC34BA2A0E74FF00257408 /* ZJAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EC34B92A0E74FF00257408 /* ZJAddressPickerView.m */; };
-		60EC34BD2A0E755400257408 /* ZJAreaProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EC34BC2A0E755400257408 /* ZJAreaProvider.m */; };
-		60EC34C22A0E7D8300257408 /* adress.txt in Resources */ = {isa = PBXBuildFile; fileRef = 60EC34C12A0E7D8300257408 /* adress.txt */; };
+		60EC34D92A107CAD00257408 /* ZJAddressPickerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 60EC34D42A107CAD00257408 /* ZJAddressPickerView.bundle */; };
+		60EC34DA2A107CAD00257408 /* ZJAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EC34D52A107CAD00257408 /* ZJAddressPickerView.m */; };
+		60EC34DB2A107CAD00257408 /* ZJAreaProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EC34D82A107CAD00257408 /* ZJAreaProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +29,11 @@
 		60EC34AD2A0E722200257408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60EC34AF2A0E722200257408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60EC34B02A0E722200257408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		60EC34B82A0E74FF00257408 /* ZJAddressPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJAddressPickerView.h; sourceTree = "<group>"; };
-		60EC34B92A0E74FF00257408 /* ZJAddressPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJAddressPickerView.m; sourceTree = "<group>"; };
-		60EC34BB2A0E755400257408 /* ZJAreaProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJAreaProvider.h; sourceTree = "<group>"; };
-		60EC34BC2A0E755400257408 /* ZJAreaProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJAreaProvider.m; sourceTree = "<group>"; };
-		60EC34C12A0E7D8300257408 /* adress.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = adress.txt; sourceTree = "<group>"; };
+		60EC34D42A107CAD00257408 /* ZJAddressPickerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZJAddressPickerView.bundle; sourceTree = "<group>"; };
+		60EC34D52A107CAD00257408 /* ZJAddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJAddressPickerView.m; sourceTree = "<group>"; };
+		60EC34D62A107CAD00257408 /* ZJAreaProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJAreaProvider.h; sourceTree = "<group>"; };
+		60EC34D72A107CAD00257408 /* ZJAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJAddressPickerView.h; sourceTree = "<group>"; };
+		60EC34D82A107CAD00257408 /* ZJAreaProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJAreaProvider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 		60EC349D2A0E722100257408 /* ZJAddressPickerViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				60EC34B72A0E74F300257408 /* ZJAddressPickerView */,
+				60EC34D32A107CAD00257408 /* ZJAddressPickerView */,
 				60EC349E2A0E722100257408 /* AppDelegate.h */,
 				60EC349F2A0E722100257408 /* AppDelegate.m */,
 				60EC34A42A0E722100257408 /* ViewController.h */,
@@ -80,17 +80,17 @@
 			path = ZJAddressPickerViewDemo;
 			sourceTree = "<group>";
 		};
-		60EC34B72A0E74F300257408 /* ZJAddressPickerView */ = {
+		60EC34D32A107CAD00257408 /* ZJAddressPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				60EC34B82A0E74FF00257408 /* ZJAddressPickerView.h */,
-				60EC34B92A0E74FF00257408 /* ZJAddressPickerView.m */,
-				60EC34BB2A0E755400257408 /* ZJAreaProvider.h */,
-				60EC34BC2A0E755400257408 /* ZJAreaProvider.m */,
-				60EC34C12A0E7D8300257408 /* adress.txt */,
+				60EC34D72A107CAD00257408 /* ZJAddressPickerView.h */,
+				60EC34D52A107CAD00257408 /* ZJAddressPickerView.m */,
+				60EC34D62A107CAD00257408 /* ZJAreaProvider.h */,
+				60EC34D82A107CAD00257408 /* ZJAreaProvider.m */,
+				60EC34D42A107CAD00257408 /* ZJAddressPickerView.bundle */,
 			);
 			path = ZJAddressPickerView;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -150,8 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				60EC34AE2A0E722200257408 /* LaunchScreen.storyboard in Resources */,
+				60EC34D92A107CAD00257408 /* ZJAddressPickerView.bundle in Resources */,
 				60EC34AB2A0E722200257408 /* Assets.xcassets in Resources */,
-				60EC34C22A0E7D8300257408 /* adress.txt in Resources */,
 				60EC34A92A0E722100257408 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,10 +164,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				60EC34A62A0E722100257408 /* ViewController.m in Sources */,
-				60EC34BD2A0E755400257408 /* ZJAreaProvider.m in Sources */,
+				60EC34DB2A107CAD00257408 /* ZJAreaProvider.m in Sources */,
 				60EC34A02A0E722100257408 /* AppDelegate.m in Sources */,
 				60EC34B12A0E722200257408 /* main.m in Sources */,
-				60EC34BA2A0E74FF00257408 /* ZJAddressPickerView.m in Sources */,
+				60EC34DA2A107CAD00257408 /* ZJAddressPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
